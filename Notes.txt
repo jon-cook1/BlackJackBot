@@ -1,0 +1,12 @@
+Notes:
+
+For now we are giving basic rules to the player:
+    - Stand on 21 and 20
+    - Always hit if value is less than 12
+
+Dealer:
+    - Always stand 17, hard or soft, can be changed
+
+Both:
+    - Have a third return boolean representing whether the game is over or not (player/ dealer bust)
+        - Might need to add this as a parameter, keeping it as a return value though as I'm predicting it will be useful later
