@@ -1,13 +1,33 @@
+Next approach:
+    Create 10 graphs, one for each dealer upcard. Each has a node for all player sums
+
+    Simulate a bunch of dealer hands to get the likelihood of busting and values 17-21 for each dealer upcard
+
+    Connect each node to the the possible following nodes (when hitting)- include a busting node (cycle ends when 21 or bust node is hit)
+        Then simulate games. Record the liklihood of each path. Compare to dealer paths. Use that to make a decision
+            Program in finite decks
+            Potentially add reward weighting system to allow for doubling down
+                Maybe just look at all odds for only one additional card
+                Do the same for splitting- look at odds for each split hand
+            This approach would likely require summing the weights of all paths until end, depending on how appraoch towards dealer card is handled.
+
+
+Current bugs:
+    Player can't have two aces- change from bool to int count
+
+
+
+
 Monte Carlo approach requires a fixed stopping point for the player. Win rates:
-    - 13 (hit one card max) -> 43.15%
-    - 14 -> 43.95%
-    - 15 -> 43.69% 
-    - 16 -> 44.45%
-    - 17 -> 44.21%
-    - 18 -> 43.24%
-    - 19 -> 38.55%
-    - 20 -> 31.79%
-    - 21 -> 18.86%
+    - 13 (hit one card max) -> 44.48%
+    - 14 -> 44.57%
+    - 15 -> 44.56% 
+    - 16 -> 42.94%
+    - 17 -> 43.43%
+    - 18 -> 41.54%
+    - 19 -> 37.90%
+    - 20 -> 29.64%
+    - 21 -> 15.14%
 
 
 Results of 75000 hands, standing on 17:
