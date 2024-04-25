@@ -1,0 +1,234 @@
+Monte Carlo approach requires a fixed stopping point for the player. Win rates:
+    - 13 (hit one card max) -> 43.15%
+    - 14 -> 43.95%
+    - 15 -> 43.69% 
+    - 16 -> 44.45%
+    - 17 -> 44.21%
+    - 18 -> 43.24%
+    - 19 -> 38.55%
+    - 20 -> 31.79%
+    - 21 -> 18.86%
+
+
+Results of 75000 hands, standing on 17:
+
+Player sum: 12, Dealer card: 1, Ace: False, State Value: -186
+Player sum: 12, Dealer card: 2, Ace: False, State Value: -183
+Player sum: 12, Dealer card: 3, Ace: False, State Value: -160
+Player sum: 12, Dealer card: 4, Ace: False, State Value: -178
+Player sum: 12, Dealer card: 5, Ace: False, State Value: -180
+Player sum: 12, Dealer card: 6, Ace: False, State Value: -176
+Player sum: 12, Dealer card: 7, Ace: False, State Value: -160
+Player sum: 12, Dealer card: 8, Ace: False, State Value: -189
+Player sum: 12, Dealer card: 9, Ace: False, State Value: -182
+Player sum: 12, Dealer card: 10, Ace: False, State Value: -504
+
+Player sum: 13, Dealer card: 1, Ace: False, State Value: -243
+Player sum: 13, Dealer card: 2, Ace: False, State Value: -253
+Player sum: 13, Dealer card: 3, Ace: False, State Value: -225
+Player sum: 13, Dealer card: 4, Ace: False, State Value: -266
+Player sum: 13, Dealer card: 5, Ace: False, State Value: -263
+Player sum: 13, Dealer card: 6, Ace: False, State Value: -246
+Player sum: 13, Dealer card: 7, Ace: False, State Value: -253
+Player sum: 13, Dealer card: 8, Ace: False, State Value: -231
+Player sum: 13, Dealer card: 9, Ace: False, State Value: -251
+Player sum: 13, Dealer card: 10, Ace: False, State Value: -680
+
+Player sum: 14, Dealer card: 1, Ace: False, State Value: -291
+Player sum: 14, Dealer card: 2, Ace: False, State Value: -321
+Player sum: 14, Dealer card: 3, Ace: False, State Value: -316
+Player sum: 14, Dealer card: 4, Ace: False, State Value: -276
+Player sum: 14, Dealer card: 5, Ace: False, State Value: -307
+Player sum: 14, Dealer card: 6, Ace: False, State Value: -350
+Player sum: 14, Dealer card: 7, Ace: False, State Value: -305
+Player sum: 14, Dealer card: 8, Ace: False, State Value: -351
+Player sum: 14, Dealer card: 9, Ace: False, State Value: -328
+Player sum: 14, Dealer card: 10, Ace: False, State Value: -960
+
+Player sum: 15, Dealer card: 1, Ace: False, State Value: -400
+Player sum: 15, Dealer card: 2, Ace: False, State Value: -445
+Player sum: 15, Dealer card: 3, Ace: False, State Value: -380
+Player sum: 15, Dealer card: 4, Ace: False, State Value: -417
+Player sum: 15, Dealer card: 5, Ace: False, State Value: -376
+Player sum: 15, Dealer card: 6, Ace: False, State Value: -368
+Player sum: 15, Dealer card: 7, Ace: False, State Value: -413
+Player sum: 15, Dealer card: 8, Ace: False, State Value: -413
+Player sum: 15, Dealer card: 9, Ace: False, State Value: -371
+Player sum: 15, Dealer card: 10, Ace: False, State Value: -1233
+
+Player sum: 16, Dealer card: 1, Ace: False, State Value: -441
+Player sum: 16, Dealer card: 2, Ace: False, State Value: -456
+Player sum: 16, Dealer card: 3, Ace: False, State Value: -497
+Player sum: 16, Dealer card: 4, Ace: False, State Value: -454
+Player sum: 16, Dealer card: 5, Ace: False, State Value: -501
+Player sum: 16, Dealer card: 6, Ace: False, State Value: -484
+Player sum: 16, Dealer card: 7, Ace: False, State Value: -491
+Player sum: 16, Dealer card: 8, Ace: False, State Value: -507
+Player sum: 16, Dealer card: 9, Ace: False, State Value: -446
+Player sum: 16, Dealer card: 10, Ace: False, State Value: -1367
+
+Player sum: 17, Dealer card: 1, Ace: False, State Value: -224
+Player sum: 17, Dealer card: 2, Ace: False, State Value: -132
+Player sum: 17, Dealer card: 3, Ace: False, State Value: -122
+Player sum: 17, Dealer card: 4, Ace: False, State Value: -68
+Player sum: 17, Dealer card: 5, Ace: False, State Value: -110
+Player sum: 17, Dealer card: 6, Ace: False, State Value: -63
+Player sum: 17, Dealer card: 7, Ace: False, State Value: -56
+Player sum: 17, Dealer card: 8, Ace: False, State Value: -272
+Player sum: 17, Dealer card: 9, Ace: False, State Value: -316
+Player sum: 17, Dealer card: 10, Ace: False, State Value: -989
+
+Player sum: 18, Dealer card: 1, Ace: False, State Value: 63
+Player sum: 18, Dealer card: 2, Ace: False, State Value: 86
+Player sum: 18, Dealer card: 3, Ace: False, State Value: 117
+Player sum: 18, Dealer card: 4, Ace: False, State Value: 124
+Player sum: 18, Dealer card: 5, Ace: False, State Value: 215
+Player sum: 18, Dealer card: 6, Ace: False, State Value: 171
+Player sum: 18, Dealer card: 7, Ace: False, State Value: 336
+Player sum: 18, Dealer card: 8, Ace: False, State Value: 159
+Player sum: 18, Dealer card: 9, Ace: False, State Value: -1
+Player sum: 18, Dealer card: 10, Ace: False, State Value: -379
+
+Player sum: 19, Dealer card: 1, Ace: False, State Value: 226
+Player sum: 19, Dealer card: 2, Ace: False, State Value: 253
+Player sum: 19, Dealer card: 3, Ace: False, State Value: 306
+Player sum: 19, Dealer card: 4, Ace: False, State Value: 345
+Player sum: 19, Dealer card: 5, Ace: False, State Value: 338
+Player sum: 19, Dealer card: 6, Ace: False, State Value: 339
+Player sum: 19, Dealer card: 7, Ace: False, State Value: 423
+Player sum: 19, Dealer card: 8, Ace: False, State Value: 449
+Player sum: 19, Dealer card: 9, Ace: False, State Value: 298
+Player sum: 19, Dealer card: 10, Ace: False, State Value: 217
+
+Player sum: 20, Dealer card: 1, Ace: False, State Value: 504
+Player sum: 20, Dealer card: 2, Ace: False, State Value: 515
+Player sum: 20, Dealer card: 3, Ace: False, State Value: 577
+Player sum: 20, Dealer card: 4, Ace: False, State Value: 557
+Player sum: 20, Dealer card: 5, Ace: False, State Value: 579
+Player sum: 20, Dealer card: 6, Ace: False, State Value: 622
+Player sum: 20, Dealer card: 7, Ace: False, State Value: 563
+Player sum: 20, Dealer card: 8, Ace: False, State Value: 673
+Player sum: 20, Dealer card: 9, Ace: False, State Value: 608
+Player sum: 20, Dealer card: 10, Ace: False, State Value: 1391
+
+Player sum: 21, Dealer card: 1, Ace: False, State Value: 366
+Player sum: 21, Dealer card: 2, Ace: False, State Value: 416
+Player sum: 21, Dealer card: 3, Ace: False, State Value: 412
+Player sum: 21, Dealer card: 4, Ace: False, State Value: 388
+Player sum: 21, Dealer card: 5, Ace: False, State Value: 370
+Player sum: 21, Dealer card: 6, Ace: False, State Value: 379
+Player sum: 21, Dealer card: 7, Ace: False, State Value: 392
+Player sum: 21, Dealer card: 8, Ace: False, State Value: 392
+Player sum: 21, Dealer card: 9, Ace: False, State Value: 416
+Player sum: 21, Dealer card: 10, Ace: False, State Value: 1229
+
+
+
+Player sum: 12, Dealer card: 1, Ace: True, State Value: -2
+Player sum: 12, Dealer card: 2, Ace: True, State Value: -6
+Player sum: 12, Dealer card: 3, Ace: True, State Value: -3
+Player sum: 12, Dealer card: 4, Ace: True, State Value: -3
+Player sum: 12, Dealer card: 5, Ace: True, State Value: -4
+Player sum: 12, Dealer card: 6, Ace: True, State Value: -3
+Player sum: 12, Dealer card: 7, Ace: True, State Value: -7
+Player sum: 12, Dealer card: 8, Ace: True, State Value: -2
+Player sum: 12, Dealer card: 9, Ace: True, State Value: -5
+Player sum: 12, Dealer card: 10, Ace: True, State Value: -8
+
+Player sum: 13, Dealer card: 1, Ace: True, State Value: -9
+Player sum: 13, Dealer card: 2, Ace: True, State Value: -9
+Player sum: 13, Dealer card: 3, Ace: True, State Value: -10
+Player sum: 13, Dealer card: 4, Ace: True, State Value: -8
+Player sum: 13, Dealer card: 5, Ace: True, State Value: -11
+Player sum: 13, Dealer card: 6, Ace: True, State Value: -7
+Player sum: 13, Dealer card: 7, Ace: True, State Value: -9
+Player sum: 13, Dealer card: 8, Ace: True, State Value: -7
+Player sum: 13, Dealer card: 9, Ace: True, State Value: -13
+Player sum: 13, Dealer card: 10, Ace: True, State Value: -26
+
+Player sum: 14, Dealer card: 1, Ace: True, State Value: -16
+Player sum: 14, Dealer card: 2, Ace: True, State Value: -15
+Player sum: 14, Dealer card: 3, Ace: True, State Value: -16
+Player sum: 14, Dealer card: 4, Ace: True, State Value: -14
+Player sum: 14, Dealer card: 5, Ace: True, State Value: -23
+Player sum: 14, Dealer card: 6, Ace: True, State Value: -13
+Player sum: 14, Dealer card: 7, Ace: True, State Value: -17
+Player sum: 14, Dealer card: 8, Ace: True, State Value: -16
+Player sum: 14, Dealer card: 9, Ace: True, State Value: -22
+Player sum: 14, Dealer card: 10, Ace: True, State Value: -52
+
+Player sum: 15, Dealer card: 1, Ace: True, State Value: -28
+Player sum: 15, Dealer card: 2, Ace: True, State Value: -22
+Player sum: 15, Dealer card: 3, Ace: True, State Value: -17
+Player sum: 15, Dealer card: 4, Ace: True, State Value: -25
+Player sum: 15, Dealer card: 5, Ace: True, State Value: -18
+Player sum: 15, Dealer card: 6, Ace: True, State Value: -21
+Player sum: 15, Dealer card: 7, Ace: True, State Value: -21
+Player sum: 15, Dealer card: 8, Ace: True, State Value: -23
+Player sum: 15, Dealer card: 9, Ace: True, State Value: -27
+Player sum: 15, Dealer card: 10, Ace: True, State Value: -68
+
+Player sum: 16, Dealer card: 1, Ace: True, State Value: -26
+Player sum: 16, Dealer card: 2, Ace: True, State Value: -24
+Player sum: 16, Dealer card: 3, Ace: True, State Value: -31
+Player sum: 16, Dealer card: 4, Ace: True, State Value: -35
+Player sum: 16, Dealer card: 5, Ace: True, State Value: -27
+Player sum: 16, Dealer card: 6, Ace: True, State Value: -33
+Player sum: 16, Dealer card: 7, Ace: True, State Value: -32
+Player sum: 16, Dealer card: 8, Ace: True, State Value: -25
+Player sum: 16, Dealer card: 9, Ace: True, State Value: -29
+Player sum: 16, Dealer card: 10, Ace: True, State Value: -108
+
+Player sum: 17, Dealer card: 1, Ace: True, State Value: -49
+Player sum: 17, Dealer card: 2, Ace: True, State Value: -48
+Player sum: 17, Dealer card: 3, Ace: True, State Value: -23
+Player sum: 17, Dealer card: 4, Ace: True, State Value: -12
+Player sum: 17, Dealer card: 5, Ace: True, State Value: 1
+Player sum: 17, Dealer card: 6, Ace: True, State Value: -19
+Player sum: 17, Dealer card: 7, Ace: True, State Value: -18
+Player sum: 17, Dealer card: 8, Ace: True, State Value: -27
+Player sum: 17, Dealer card: 9, Ace: True, State Value: -47
+Player sum: 17, Dealer card: 10, Ace: True, State Value: -137
+
+Player sum: 18, Dealer card: 1, Ace: True, State Value: -5
+Player sum: 18, Dealer card: 2, Ace: True, State Value: 25
+Player sum: 18, Dealer card: 3, Ace: True, State Value: 31
+Player sum: 18, Dealer card: 4, Ace: True, State Value: 19
+Player sum: 18, Dealer card: 5, Ace: True, State Value: 33
+Player sum: 18, Dealer card: 6, Ace: True, State Value: 25
+Player sum: 18, Dealer card: 7, Ace: True, State Value: 55
+Player sum: 18, Dealer card: 8, Ace: True, State Value: 38
+Player sum: 18, Dealer card: 9, Ace: True, State Value: -2
+Player sum: 18, Dealer card: 10, Ace: True, State Value: -53
+
+Player sum: 19, Dealer card: 1, Ace: True, State Value: 58
+Player sum: 19, Dealer card: 2, Ace: True, State Value: 72
+Player sum: 19, Dealer card: 3, Ace: True, State Value: 64
+Player sum: 19, Dealer card: 4, Ace: True, State Value: 74
+Player sum: 19, Dealer card: 5, Ace: True, State Value: 58
+Player sum: 19, Dealer card: 6, Ace: True, State Value: 63
+Player sum: 19, Dealer card: 7, Ace: True, State Value: 78
+Player sum: 19, Dealer card: 8, Ace: True, State Value: 70
+Player sum: 19, Dealer card: 9, Ace: True, State Value: 58
+Player sum: 19, Dealer card: 10, Ace: True, State Value: 38
+
+Player sum: 20, Dealer card: 1, Ace: True, State Value: 80
+Player sum: 20, Dealer card: 2, Ace: True, State Value: 92
+Player sum: 20, Dealer card: 3, Ace: True, State Value: 91
+Player sum: 20, Dealer card: 4, Ace: True, State Value: 111
+Player sum: 20, Dealer card: 5, Ace: True, State Value: 111
+Player sum: 20, Dealer card: 6, Ace: True, State Value: 107
+Player sum: 20, Dealer card: 7, Ace: True, State Value: 105
+Player sum: 20, Dealer card: 8, Ace: True, State Value: 131
+Player sum: 20, Dealer card: 9, Ace: True, State Value: 104
+Player sum: 20, Dealer card: 10, Ace: True, State Value: 260
+
+Player sum: 21, Dealer card: 1, Ace: True, State Value: 285
+Player sum: 21, Dealer card: 2, Ace: True, State Value: 295
+Player sum: 21, Dealer card: 3, Ace: True, State Value: 290
+Player sum: 21, Dealer card: 4, Ace: True, State Value: 302
+Player sum: 21, Dealer card: 5, Ace: True, State Value: 278
+Player sum: 21, Dealer card: 6, Ace: True, State Value: 284
+Player sum: 21, Dealer card: 7, Ace: True, State Value: 304
+Player sum: 21, Dealer card: 8, Ace: True, State Value: 310
+Player sum: 21, Dealer card: 9, Ace: True, State Value: 304
