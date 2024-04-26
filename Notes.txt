@@ -1,3 +1,8 @@
+TODO:
+
+    Move all comparison, training, data visualization, etc to a common document location for clean dashboard to turn in
+
+
 Next approach:
     Create 10 graphs, one for each dealer upcard. Each has a node for all player sums
 
