@@ -1,6 +1,9 @@
 TODO:
-
     Move all comparison, training, data visualization, etc to a common document location for clean dashboard to turn in
+    Add slow moving blackjack game that shows the bot playing through hands
+    Data visualization through training process
+    
+    Run the averaged strategy against the book strat and average win rates- "win rate of win rates"
 
 
 Next approach:
